@@ -1,10 +1,12 @@
 <h1> Meraki Licensing Workflow </h1>
 
 <h2>By Default this will generate a License Report 60 days before the license expires, and Send a Slack Message when it hits 30 days. </h2>
+
 <img width="670" alt="Screenshot 2023-07-25 at 9 15 22 PM" src="https://github.com/PEAKE-Technology-Partners/Rewst-Workflows/assets/59022873/537a366a-ad0b-439d-81ab-799e98ccbad3">
 <img width="745" alt="Screenshot 2023-07-25 at 9 17 27 PM" src="https://github.com/PEAKE-Technology-Partners/Rewst-Workflows/assets/59022873/12864dc9-95a4-46cb-bff4-f645f82b926f">
 
-
+Attempt 1:
+*Warning:* This is just my first atempt. I want to use additional variables to make the workflow more modular. But since we have pretty rigid requirements, it was easier just to hard code the values (for now). 
 
 
 <h2>You will need to change the following when you import it into Rewst</h2>
