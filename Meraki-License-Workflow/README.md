@@ -6,7 +6,7 @@
 <img width="745" alt="Screenshot 2023-07-25 at 9 17 27 PM" src="https://github.com/PEAKE-Technology-Partners/Rewst-Workflows/assets/59022873/12864dc9-95a4-46cb-bff4-f645f82b926f">
 
 Attempt 1:
-*Warning:* This is just my first atempt. I want to use additional variables to make the workflow more modular. But since we have pretty rigid requirements, it was easier just to hard code the values (for now). 
+*Warning:* This is just my first attempt. I want to use additional variables to make the workflow more modular. But since we have pretty rigid requirements, it was easier just to hard code the values (for now). 
 
 
 <h2>You will need to change the following when you import it into Rewst</h2>
