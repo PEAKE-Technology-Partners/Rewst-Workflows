@@ -10,7 +10,7 @@ The first 3 workflows will setup the Meraki Networks to send webhooks to a Webho
 By Default, the Up and Down Alerts will go to a Slack Channel, the Config Change Notifications will be sent to a ConnectWise Manage Ticket.  
 A note will be added to the ticket with the changes. 
 
-It is **Mandatory** to change the webhook_url in the Child Update Meraki Networks Webhook (Child) workflow to the Webhook of the Meraki Alerts workflow or your own workflow. 
+It is **Mandatory** to change the webhook_url in the Meraki_Webhook_Alerts workflow to the Webhook of the Meraki Alerts workflow or your own workflow. 
 **Otherwise the workflow will fail!**
 
 You may also customize the webhook_name as this will show up in the Meraki Dashboard. 
