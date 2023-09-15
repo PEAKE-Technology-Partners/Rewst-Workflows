@@ -26,7 +26,8 @@ https://documenter.getpostman.com/view/897512/SVfRtnU7?version=latest
 
 You will also need to configure the Rewst Integration. You will need to setup Integration overrides as well for your specific Meraki Custom Integration.
 
-
+The Meraki API URL is api.meraki.com/api/v1
+You will need to select API Key as the Authentication, and use the Header **X-Cisco-Meraki-API-Key**
 
 
 The API key is easy to retrieve from Meraki. Go yo "Your Profile" in the Dashboard, then scroll down until you see "Generate a New API Key". Copy that key into the Rewst Custom Integration page. 
