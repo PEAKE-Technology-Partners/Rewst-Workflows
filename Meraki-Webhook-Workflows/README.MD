@@ -23,3 +23,12 @@ https://developer.cisco.com/meraki/api/
 
 Meraki Webhook JSON Responses:
 https://documenter.getpostman.com/view/897512/SVfRtnU7?version=latest
+
+You will also need to configure the Rewst Integration. You will need to setup Integration overrides as well for your specific Meraki Custom Integration.
+
+Below is a screenshot of how to configure it inside of Rewst:
+
+
+
+
+The API key is easy to retrieve from Meraki. Go yo "Your Profile" in the Dashboard, then scroll down until you see "Generate a New API Key". Copy that key into the Rewst Custom Integration page. 
