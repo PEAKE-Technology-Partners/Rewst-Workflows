@@ -26,8 +26,6 @@ https://documenter.getpostman.com/view/897512/SVfRtnU7?version=latest
 
 You will also need to configure the Rewst Integration. You will need to setup Integration overrides as well for your specific Meraki Custom Integration.
 
-Below is a screenshot of how to configure it inside of Rewst:
-
 
 
 
