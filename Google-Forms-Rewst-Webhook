@@ -1,0 +1,30 @@
+# Rewst - Google Forms Integration Docs
+
+This will show you how to integrate Rewst with Google Forms, so that you can take Google Forms Submissions and process them in Rewst. This will only take the form submission data,
+not the other information about who filled out the form, etc.
+
+Prerequisites: 
+Have a Google Form Created
+Have an Link Generated for it
+Have a Rewst Workflow Created with an Webhook Trigger (Please setup the Webhook Trigger to accept POST Requests)
+Have an Basic Understanding of How Rewst Workflows Work
+
+1. Create the Google Apps Script
+Inside of your Google Form, select the 3 Dots Hamburger Menu, then select Script Editor.
+
+If you have existing scripts, select the + icon to create a new Script. Give this a descriptive name, such as Submit_Results_To_Rewst.gs
+Copy/Paste the Code Provided in Script.gs and edit the POST_URL to your Webhook URL.
+Click on Save to save the Google Script
+
+
+
+2. Add a Google Apps Trigger
+On the Scripts page, select Triggers
+Click on the Plus Button the Create a New Trigger.
+Note: Make sure that your settings are configured on Event type is setup as On Form Submit, otherwise you will not get the completed results. 
+
+3. Now save your changes, and submit the form, verify that the Webhook is showing the fields and the values.
+
+
+
+
