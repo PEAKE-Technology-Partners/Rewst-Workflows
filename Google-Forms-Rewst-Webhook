@@ -13,7 +13,7 @@ Have an Basic Understanding of How Rewst Workflows Work
 Inside of your Google Form, select the 3 Dots Hamburger Menu, then select Script Editor.
 
 If you have existing scripts, select the + icon to create a new Script. Give this a descriptive name, such as Submit_Results_To_Rewst.gs
-Copy/Paste the Code Provided in Script.gs and edit the POST_URL to your Webhook URL.
+Copy/Paste the Code Provided below and edit the POST_URL to your Webhook URL.
 Click on Save to save the Google Script
 
 
@@ -24,6 +24,9 @@ Click on the Plus Button the Create a New Trigger.
 Note: Make sure that your settings are configured on Event type is setup as On Form Submit, otherwise you will not get the completed results. 
 
 3. Now save your changes, and submit the form, verify that the Webhook is showing the fields and the values.
+
+
+
 
 
 
